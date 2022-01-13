@@ -7,7 +7,7 @@ import pickle
 import traceback
 import sys
 
-#MAPPERS = ['plsr', 'mlp', 'rf', 'lr', 'rr', 'svr', 'brr', 'elast', 'lgb'] #, 'gbr']
+######MAPPERS = ['plsr', 'mlp', 'rf', 'lr', 'rr', 'svr', 'brr', 'elast', 'lgb'] #, 'gbr']
 MAPPERS = ['lgb']
 #USE_INTERACTIONS = [False, True]
 USE_INTERACTIONS = [False]
