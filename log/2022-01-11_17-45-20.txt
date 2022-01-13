@@ -1,0 +1,37 @@
+2022-01-11 17:45:20,828 main.py[line:72] INFO: $$$$$ regression feature: lgb, False
+2022-01-11 17:45:26,851 data_util.py[line:198] INFO: USING FEATURES: CUR_WORD_POS, CUR_WORD_LEN, PREV_WORD_LEN, CUR_WORD_LOGFREQ, PREV_WORD_LOGFREQ, IS_UPPER, IS_CAPITAL, SYLLABLE_COUNT, READABILITY, SURPRISAL SCORE, 
+2022-01-11 17:45:27,322 __init__.py[line:113] DEBUG: Building prefix dict from /home/lavinia/anaconda3/lib/python3.8/site-packages/wordfreq/data/jieba_zh.txt ...
+2022-01-11 17:45:27,322 __init__.py[line:132] DEBUG: Loading model from cache /tmp/jieba.ua9e51cb34cb6b01a14086dc4389b22e5.cache
+2022-01-11 17:45:27,362 __init__.py[line:164] DEBUG: Loading model cost 0.040 seconds.
+2022-01-11 17:45:27,363 __init__.py[line:166] DEBUG: Prefix dict has been built successfully.
+2022-01-11 17:45:28,493 data_util.py[line:198] INFO: USING FEATURES: CUR_WORD_POS, CUR_WORD_LEN, PREV_WORD_LEN, CUR_WORD_LOGFREQ, PREV_WORD_LOGFREQ, IS_UPPER, IS_CAPITAL, SYLLABLE_COUNT, READABILITY, SURPRISAL SCORE, 
+2022-01-11 17:45:28,537 main.py[line:55] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: FFDAvg, lgb, False
+2022-01-11 17:45:28,567 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-11 17:45:28,568 evaluate_metrix.py[line:13] INFO: MAE: 4.784538438409666
+2022-01-11 17:45:28,568 evaluate_metrix.py[line:14] INFO: MSE: 38.589971120041966
+2022-01-11 17:45:28,568 evaluate_metrix.py[line:15] INFO: R2: 0.3487447381257708
+2022-01-11 17:45:28,569 evaluate_metrix.py[line:16] INFO: Pearson: 0.6287212461878483
+2022-01-11 17:45:28,569 evaluate_metrix.py[line:17] INFO: Spearman: 0.398462742351823
+2022-01-11 17:45:28,569 main.py[line:55] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: FFDStd, lgb, False
+2022-01-11 17:45:28,599 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-11 17:45:28,599 evaluate_metrix.py[line:13] INFO: MAE: 2.2803458284729525
+2022-01-11 17:45:28,600 evaluate_metrix.py[line:14] INFO: MSE: 9.205716520529322
+2022-01-11 17:45:28,600 evaluate_metrix.py[line:15] INFO: R2: 0.26561988262497827
+2022-01-11 17:45:28,600 evaluate_metrix.py[line:16] INFO: Pearson: 0.5509860116683566
+2022-01-11 17:45:28,601 evaluate_metrix.py[line:17] INFO: Spearman: 0.3956772868337324
+2022-01-11 17:45:28,601 main.py[line:55] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: TRTAvg, lgb, False
+2022-01-11 17:45:28,630 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-11 17:45:28,631 evaluate_metrix.py[line:13] INFO: MAE: 7.397168402859344
+2022-01-11 17:45:28,631 evaluate_metrix.py[line:14] INFO: MSE: 101.10315765726564
+2022-01-11 17:45:28,631 evaluate_metrix.py[line:15] INFO: R2: 0.2798166353653101
+2022-01-11 17:45:28,631 evaluate_metrix.py[line:16] INFO: Pearson: 0.5768346269825052
+2022-01-11 17:45:28,632 evaluate_metrix.py[line:17] INFO: Spearman: 0.46908230058538375
+2022-01-11 17:45:28,632 main.py[line:55] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: TRTStd, lgb, False
+2022-01-11 17:45:28,661 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-11 17:45:28,662 evaluate_metrix.py[line:13] INFO: MAE: 5.177115196256622
+2022-01-11 17:45:28,662 evaluate_metrix.py[line:14] INFO: MSE: 51.900585129581714
+2022-01-11 17:45:28,662 evaluate_metrix.py[line:15] INFO: R2: 0.19271522411379238
+2022-01-11 17:45:28,662 evaluate_metrix.py[line:16] INFO: Pearson: 0.4793707385487461
+2022-01-11 17:45:28,663 evaluate_metrix.py[line:17] INFO: Spearman: 0.44323008951125914
+2022-01-11 17:45:28,663 main.py[line:74] INFO: ##### one experiment loop finished
+

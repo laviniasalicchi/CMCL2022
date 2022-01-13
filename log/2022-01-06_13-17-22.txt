@@ -1,0 +1,82 @@
+2022-01-06 13:17:22,566 main.py[line:70] INFO: $$$$$ regression feature: plsr, False
+2022-01-06 13:17:22,601 data_util.py[line:162] INFO: USING FEATURES: CUR_WORD_POS, CUR_WORD_LEN, PREV_WORD_LEN, CUR_WORD_LOGFREQ, PREV_WORD_LOGFREQ, IS_UPPER, IS_CAPITAL, SYLLABLE_COUNT, READABILITY, SURPRISAL SCORE, 
+2022-01-06 13:38:38,641 data_util.py[line:162] INFO: USING FEATURES: CUR_WORD_POS, CUR_WORD_LEN, PREV_WORD_LEN, CUR_WORD_LOGFREQ, PREV_WORD_LOGFREQ, IS_UPPER, IS_CAPITAL, SYLLABLE_COUNT, READABILITY, SURPRISAL SCORE, 
+2022-01-06 13:41:31,006 main.py[line:53] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: nFix, plsr, False
+2022-01-06 13:41:31,042 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-06 13:41:31,042 evaluate_metrix.py[line:13] INFO: MAE: 4.44437034462203
+2022-01-06 13:41:31,043 evaluate_metrix.py[line:14] INFO: MSE: 37.1247789705019
+2022-01-06 13:41:31,043 evaluate_metrix.py[line:15] INFO: R2: 0.6013980448632865
+2022-01-06 13:41:31,043 evaluate_metrix.py[line:16] INFO: Pearson: 0.7760887496073811
+2022-01-06 13:41:31,046 evaluate_metrix.py[line:17] INFO: Spearman: 0.8059714285530629
+2022-01-06 13:41:31,046 main.py[line:53] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: FFD, plsr, False
+2022-01-06 13:41:31,054 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-06 13:41:31,055 evaluate_metrix.py[line:13] INFO: MAE: 0.7566347356648432
+2022-01-06 13:41:31,055 evaluate_metrix.py[line:14] INFO: MSE: 0.9105216566882167
+2022-01-06 13:41:31,055 evaluate_metrix.py[line:15] INFO: R2: 0.5370500620662837
+2022-01-06 13:41:31,056 evaluate_metrix.py[line:16] INFO: Pearson: 0.7331420294319149
+2022-01-06 13:41:31,057 evaluate_metrix.py[line:17] INFO: Spearman: 0.7621920131151075
+2022-01-06 13:41:31,057 main.py[line:53] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: GPT, plsr, False
+2022-01-06 13:41:31,066 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-06 13:41:31,066 evaluate_metrix.py[line:13] INFO: MAE: 2.924353491772335
+2022-01-06 13:41:31,067 evaluate_metrix.py[line:14] INFO: MSE: 21.841358283606223
+2022-01-06 13:41:31,067 evaluate_metrix.py[line:15] INFO: R2: 0.3552275216025744
+2022-01-06 13:41:31,067 evaluate_metrix.py[line:16] INFO: Pearson: 0.5960811022419651
+2022-01-06 13:41:31,069 evaluate_metrix.py[line:17] INFO: Spearman: 0.6769850810106456
+2022-01-06 13:41:31,069 main.py[line:53] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: TRT, plsr, False
+2022-01-06 13:41:31,077 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-06 13:41:31,078 evaluate_metrix.py[line:13] INFO: MAE: 1.732081450480707
+2022-01-06 13:41:31,078 evaluate_metrix.py[line:14] INFO: MSE: 5.873011577568221
+2022-01-06 13:41:31,079 evaluate_metrix.py[line:15] INFO: R2: 0.5692876184071387
+2022-01-06 13:41:31,079 evaluate_metrix.py[line:16] INFO: Pearson: 0.7552235402499207
+2022-01-06 13:41:31,081 evaluate_metrix.py[line:17] INFO: Spearman: 0.7945491775618516
+2022-01-06 13:41:31,081 main.py[line:53] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: fixProp, plsr, False
+2022-01-06 13:41:31,089 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-06 13:41:31,089 evaluate_metrix.py[line:13] INFO: MAE: 13.85865204335531
+2022-01-06 13:41:31,089 evaluate_metrix.py[line:14] INFO: MSE: 295.05737322969173
+2022-01-06 13:41:31,090 evaluate_metrix.py[line:15] INFO: R2: 0.566483284084004
+2022-01-06 13:41:31,090 evaluate_metrix.py[line:16] INFO: Pearson: 0.7528445434391056
+2022-01-06 13:41:31,092 evaluate_metrix.py[line:17] INFO: Spearman: 0.7891034992110149
+2022-01-06 13:41:31,092 main.py[line:72] INFO: ##### one experiment loop finished
+
+2022-01-06 13:41:31,092 main.py[line:70] INFO: $$$$$ regression feature: plsr, True
+2022-01-06 13:41:31,158 data_util.py[line:162] INFO: USING FEATURES: CUR_WORD_POS, CUR_WORD_LEN, PREV_WORD_LEN, CUR_WORD_LOGFREQ, PREV_WORD_LOGFREQ, IS_UPPER, IS_CAPITAL, SYLLABLE_COUNT, READABILITY, SURPRISAL SCORE, 
+2022-01-06 14:02:35,462 data_util.py[line:162] INFO: USING FEATURES: CUR_WORD_POS, CUR_WORD_LEN, PREV_WORD_LEN, CUR_WORD_LOGFREQ, PREV_WORD_LOGFREQ, IS_UPPER, IS_CAPITAL, SYLLABLE_COUNT, READABILITY, SURPRISAL SCORE, 
+2022-01-06 14:05:22,594 main.py[line:53] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: nFix, plsr, True
+2022-01-06 14:05:22,637 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-06 14:05:22,638 evaluate_metrix.py[line:13] INFO: MAE: 4.36828373847947
+2022-01-06 14:05:22,638 evaluate_metrix.py[line:14] INFO: MSE: 36.03865461163082
+2022-01-06 14:05:22,638 evaluate_metrix.py[line:15] INFO: R2: 0.6130595632607863
+2022-01-06 14:05:22,639 evaluate_metrix.py[line:16] INFO: Pearson: 0.7835912360359488
+2022-01-06 14:05:22,640 evaluate_metrix.py[line:17] INFO: Spearman: 0.8184082143797176
+2022-01-06 14:05:22,640 main.py[line:53] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: FFD, plsr, True
+2022-01-06 14:05:22,684 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-06 14:05:22,684 evaluate_metrix.py[line:13] INFO: MAE: 0.7392935959121962
+2022-01-06 14:05:22,685 evaluate_metrix.py[line:14] INFO: MSE: 0.876287860576815
+2022-01-06 14:05:22,685 evaluate_metrix.py[line:15] INFO: R2: 0.5544560552885139
+2022-01-06 14:05:22,685 evaluate_metrix.py[line:16] INFO: Pearson: 0.7448658044018777
+2022-01-06 14:05:22,687 evaluate_metrix.py[line:17] INFO: Spearman: 0.7714741453585199
+2022-01-06 14:05:22,687 main.py[line:53] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: GPT, plsr, True
+2022-01-06 14:05:22,731 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-06 14:05:22,732 evaluate_metrix.py[line:13] INFO: MAE: 2.832079976090913
+2022-01-06 14:05:22,732 evaluate_metrix.py[line:14] INFO: MSE: 20.741287390948518
+2022-01-06 14:05:22,733 evaluate_metrix.py[line:15] INFO: R2: 0.3877023991565113
+2022-01-06 14:05:22,733 evaluate_metrix.py[line:16] INFO: Pearson: 0.622785562820725
+2022-01-06 14:05:22,735 evaluate_metrix.py[line:17] INFO: Spearman: 0.6904361229278958
+2022-01-06 14:05:22,735 main.py[line:53] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: TRT, plsr, True
+2022-01-06 14:05:22,780 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-06 14:05:22,780 evaluate_metrix.py[line:13] INFO: MAE: 1.6943649156253455
+2022-01-06 14:05:22,781 evaluate_metrix.py[line:14] INFO: MSE: 5.6307347497206
+2022-01-06 14:05:22,781 evaluate_metrix.py[line:15] INFO: R2: 0.5870556115651261
+2022-01-06 14:05:22,782 evaluate_metrix.py[line:16] INFO: Pearson: 0.766994225224685
+2022-01-06 14:05:22,783 evaluate_metrix.py[line:17] INFO: Spearman: 0.8088215151338893
+2022-01-06 14:05:22,783 main.py[line:53] INFO: $$$$$ regression feature, MAPPER, USE_INTERACTION: fixProp, plsr, True
+2022-01-06 14:05:22,830 evaluate_metrix.py[line:11] INFO: The predictions of the model are ready for evaluation.
+2022-01-06 14:05:22,831 evaluate_metrix.py[line:13] INFO: MAE: 13.31502730898493
+2022-01-06 14:05:22,831 evaluate_metrix.py[line:14] INFO: MSE: 278.97313235608027
+2022-01-06 14:05:22,831 evaluate_metrix.py[line:15] INFO: R2: 0.5901152550637694
+2022-01-06 14:05:22,832 evaluate_metrix.py[line:16] INFO: Pearson: 0.7683144892056727
+2022-01-06 14:05:22,833 evaluate_metrix.py[line:17] INFO: Spearman: 0.7925394307662635
+2022-01-06 14:05:22,834 main.py[line:72] INFO: ##### one experiment loop finished
+
+2022-01-06 14:05:22,834 main.py[line:70] INFO: $$$$$ regression feature: mlp, False
+2022-01-06 14:05:22,911 data_util.py[line:162] INFO: USING FEATURES: CUR_WORD_POS, CUR_WORD_LEN, PREV_WORD_LEN, CUR_WORD_LOGFREQ, PREV_WORD_LOGFREQ, IS_UPPER, IS_CAPITAL, SYLLABLE_COUNT, READABILITY, SURPRISAL SCORE, 

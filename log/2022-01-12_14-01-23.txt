@@ -1,0 +1,6 @@
+2022-01-12 14:01:23,175 main.py[line:72] INFO: $$$$$ regression feature: lgb, False
+2022-01-12 14:01:29,274 data_util.py[line:203] INFO: USING FEATURES: CUR_WORD_POS, CUR_WORD_LEN, PREV_WORD_LEN, CUR_WORD_LOGFREQ, PREV_WORD_LOGFREQ, IS_UPPER, IS_CAPITAL, SYLLABLE_COUNT, READABILITY, SURPRISAL SCORE, 
+2022-01-12 14:01:31,242 __init__.py[line:113] DEBUG: Building prefix dict from /home/lavinia/anaconda3/lib/python3.8/site-packages/wordfreq/data/jieba_zh.txt ...
+2022-01-12 14:01:31,243 __init__.py[line:132] DEBUG: Loading model from cache /tmp/jieba.ua9e51cb34cb6b01a14086dc4389b22e5.cache
+2022-01-12 14:01:31,285 __init__.py[line:164] DEBUG: Loading model cost 0.042 seconds.
+2022-01-12 14:01:31,285 __init__.py[line:166] DEBUG: Prefix dict has been built successfully.
